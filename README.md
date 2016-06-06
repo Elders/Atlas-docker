@@ -5,9 +5,9 @@ docker run --restart=always --name=atlas -d -p 7101:7101 eldersoss/atlas
 ```
 
 ### Building the docker image
-Clone the repository, navigate to `docker/` and execute
+Clone the repository and execute
 ```
-docker build -t atlas docker/
+docker build -t atlas .
 ```
 
 ### Running the container
