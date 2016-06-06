@@ -1,5 +1,6 @@
 # Atlas 1.4.5 setup for dev environment
 ### Building the docker image
+Clone the repository, navigate to `docker/` and execute
 ```
 docker build -t atlas docker/
 ```
